@@ -11,13 +11,15 @@
     "type": "git",
     "url": "git+https://github.com/metinvan/FriendFinder.git"
   },
-  "author": "",
+  "author": "Metin Aric",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/metinvan/FriendFinder/issues"
   },
   "homepage": "https://github.com/metinvan/FriendFinder#readme",
   "dependencies": {
+    "core-util-is": "^1.0.2",
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {}
 }

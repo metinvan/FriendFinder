@@ -11,7 +11,7 @@ module.exports = function(app) {
 
     // Receive user details (name, photo, scores)
     var user = req.body;
-
+ 
     // parseInt for scores
     for(var i = 0; i < user.scores.length; i++) {
       user.scores[i] = parseInt(user.scores[i]);
